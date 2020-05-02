@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    border: 0;
+    display: flow-root;
+    margin: 8px;
+}
+div {
+    width: 396px;
+    height: 720px;
+    border: 2px solid gray;
+    transform: translate(-0%,-22%);
+    margin-top: 0%;
+    position: fixed;
+}
+
+#icono {
+    width: 5;
+    height: 2;
+    color: rgb(111, 214, 180);
+
+    transform: translate(78%,40%);
+}
+
+.text1 {
+
+    font-family: 'Open Sans', sans-serif;
+    transform: translate(7.5%,200%);
+    color: gray;
+}
+
+
+
+.input1 {
+    transform: translate(41%,300%);
+    position: fixed;
+    height: 30px;
+    padding: initial;
+    border:2px solid gray;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:20px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+
+.input2 {
+    transform: translate(41%,396%);
+    position: fixed;
+    height: 30px;
+    padding: initial;
+    border:2px solid gray;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:20px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+
+
+.boton1 {
+    color: white;
+    text-decoration: none;
+    transform: translate(30%,450%);
+    padding: 20px;
+    width: 240px;
+    height: unset;
+    font-size: 14px;
+    background: grey;
+    border-radius: 5px;
+
+
+}
+
+.boton1:hover {
+    text-decoration: none;
+    transform: translate(30%,450%);
+    padding: 20px;
+    width: 240px;
+    font-size: 14px;
+    background: rgb(111, 214, 180);
+    border-radius: 30px;
+    transition-delay: 50ms;
+
+
+}
+
+.boton2 {
+
+    transform: translate(-76%,1800%);
+    width: 200px;
+    position: fixed;
+    background-color: white;
+    color: grey;
+    padding: 4;
+}
+
